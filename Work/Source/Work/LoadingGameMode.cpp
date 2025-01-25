@@ -7,10 +7,11 @@ ALoadingGameMode::ALoadingGameMode()
 {
 	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnBPClass(
 		TEXT("/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter"));
-	if (PlayerPawnBPClass.Class != NULL)
+	if (PlayerPawnBPClass.Class != nullptr)
 	{
 		DefaultPawnClass = PlayerPawnBPClass.Class;
 	}
+	
 }
 
 void ALoadingGameMode::HostLanGame()
@@ -21,7 +22,7 @@ void ALoadingGameMode::HostLanGame()
 void ALoadingGameMode::JoinLanGame(FString address)
 {
 	APlayerController* LocalPlayerController = GetGameInstance()->GetFirstLocalPlayerController();
-	if (LocalPlayerController != NULL)
+	if (LocalPlayerController != nullptr)
 	{
 		LocalPlayerController->ClientTravel(address, TRAVEL_Absolute);
 	}
