@@ -1,19 +1,16 @@
-#### commit 12.27
+2024-2025腾讯游戏客户端公开课个人仓库
 
-实现了网络同步，添加了UMG结算界面
+* BigProject文件夹：本次公开课大作业
 
-#### 注意
+  * 原本使用蓝图完成逻辑，在课程结束后使用C++重写了大部分逻辑
 
-Work工程文件中的网络同步是基于大量的组播Multicast事件实现的，这并不符合正常的实现方式，但是在官方的第一人称模板中经过本人的测试，使用复制replicated进行网络同步会产生较大时延，故采用组播事件来实现网络同步
+  * 基于官方FirstPerson模板，实现了局域网联机功能，多人射击小游戏
 
+  * 有开始以及结算UMG界面
 
+* Notes文件夹：公开课各节课程笔记（没有`04 UMG界面`）
 
-这个仓库用于上传个人的课程用工程文件以及课程笔记，受限于github单个文件大小，工程文件打包的安装包（可能不是最新的）将上传至[夸克网盘](https://pan.quark.cn/s/5bd1259b8f51)
+* 大作业可执行文件下载连接：https://pan.quark.cn/s/2a79883a95e3
 
-This repository is used for uploading personal project files and course notes. Limited by the size of a single github file, the installation package packaged
-(probably not up to date) with project files will be uploaded to [Quark online disk](https://pan.quark.cn/s/5bd1259b8f51).
-
-第四节课为实操课，故没有相应的笔记
-
-
+* 本人联系方式：2428390463(QQ)
 

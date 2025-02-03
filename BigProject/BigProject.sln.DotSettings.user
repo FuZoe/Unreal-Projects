@@ -1,0 +1,6 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7FF0C3D8_002DCD64_002D3F67_002DACDC_002D7E035A93B8C4_002Fdl_003ASource_003A_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003FProgram_0020Files_003FEpic_0020Games_003FUE_005F5_002E4_003FEngine_003FSource_002Fd_003ARuntime_002Fd_003AEngine_002Fd_003AClasses_002Fd_003AGameFramework_002Ff_003AController_002Eh/@EntryIndexedValue">ForceIncluded</s:String>
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f617dcc9_002D7419_002D497b_002D8397_002Dee0d72510dbc/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="解决方案中的所有测试" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Solution /&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
